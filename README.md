@@ -14,11 +14,17 @@ Clear install instructions will come later, but basically it's just like any Sym
 
 
 
-Required application (Node.js)
-==============================
+Requirements
+============
 
-You need node.js with the package less installed.
+This bundle requires LESS to be installed on your server.
 
-You can install it on Ubuntu 12.04 (only one tested) with this command
+You can install it (in debian squeeze) with:
 
-    sudo apt-get install nodejs node-less
+```apt-get install less```
+
+Alternatively you can install less with node.js:
+
+On Ubuntu 12.04 (only one tested):
+
+```sudo apt-get install nodejs node-less```
